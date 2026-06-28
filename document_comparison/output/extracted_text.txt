@@ -1,0 +1,1 @@
+This is a sample document for OCR comparison The system extracts text from an image and compares it with this text file. Replace this file and document_image png with your own inputs before running a real comparison.

@@ -1,0 +1,31 @@
+===================================
+DOCUMENT COMPARISON REPORT
+===================================
+
+OCR Engine            : easyocr
+OCR Confidence        : 74.60%
+Pages Processed       : 1
+Sequence Similarity   : 99.76%
+Cosine Similarity     : 0.9431
+Semantic Similarity   : 0.9792
+Total Words Text      : 36
+Total Words Image     : 37
+
+Missing Words (1)
+documentimagepng
+
+Extra Words (2)
+documentimage, png
+
+Modified Words (2)
+documentimagepng -> documentimage,  -> png
+
+Overall Verdict       : Nearly Identical
+
+Character-Level Diff
+--- document.txt
++++ ocr_text
+@@ -1,2 +1 @@
+-This is a sample document for OCR comparison. The system extracts text from an image and compares it with this text file. Replace this file and document_image.png with your own inputs before running a real comparison.
+-
++This is a sample document for OCR comparison The system extracts text from an image and compares it with this text file. Replace this file and document_image png with your own inputs before running a real comparison.

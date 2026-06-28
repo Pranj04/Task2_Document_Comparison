@@ -1,0 +1,13 @@
+easyocr
+opencv-python
+numpy
+scikit-learn
+sentence-transformers
+torch
+Pillow
+pytesseract
+python-Levenshtein
+matplotlib
+PyMuPDF
+reportlab
+

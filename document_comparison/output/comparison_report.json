@@ -1,0 +1,69 @@
+{
+    "ocr_confidence": 0.746,
+    "ocr_engine": "easyocr",
+    "pages_processed": 1,
+    "sequence_similarity": 99.76,
+    "cosine_similarity": 0.9431,
+    "semantic_similarity": 0.9792,
+    "total_words_text": 36,
+    "total_words_image": 37,
+    "missing_words": [
+        "documentimagepng"
+    ],
+    "extra_words": [
+        "documentimage",
+        "png"
+    ],
+    "modified_words": [
+        "documentimagepng -> documentimage",
+        " -> png"
+    ],
+    "word_diff": [
+        "this",
+        "is",
+        "a",
+        "sample",
+        "document",
+        "for",
+        "ocr",
+        "comparison",
+        "the",
+        "system",
+        "extracts",
+        "text",
+        "from",
+        "an",
+        "image",
+        "and",
+        "compares",
+        "it",
+        "with",
+        "this",
+        "text",
+        "file",
+        "replace",
+        "this",
+        "file",
+        "and",
+        "[-documentimagepng-]",
+        "[+documentimage png+]",
+        "with",
+        "your",
+        "own",
+        "inputs",
+        "before",
+        "running",
+        "a",
+        "real",
+        "comparison"
+    ],
+    "character_diff": [
+        "--- document.txt",
+        "+++ ocr_text",
+        "@@ -1,2 +1 @@",
+        "-This is a sample document for OCR comparison. The system extracts text from an image and compares it with this text file. Replace this file and document_image.png with your own inputs before running a real comparison.",
+        "-",
+        "+This is a sample document for OCR comparison The system extracts text from an image and compares it with this text file. Replace this file and document_image png with your own inputs before running a real comparison."
+    ],
+    "overall_result": "Nearly Identical"
+}
